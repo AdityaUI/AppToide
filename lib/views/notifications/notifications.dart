@@ -20,7 +20,7 @@ class NotificationsPage extends StatelessWidget {
 
     final _firstSection = Container(
       height: screenHeight * 0.35,
-      padding: EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0),
+      padding: EdgeInsets.only(top: 7.0, left: 20.0, right: 20.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[_headerText, _searchBar, _tabSection],
